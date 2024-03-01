@@ -149,4 +149,16 @@
     .nav-menu-visible{
         display: flex;
     }
+    .nav-dropdown.open{
+        transform: rotate(90deg);
+    }
+}
+@media(max-wdith:500px){
+    .navbar{
+        width: 8px 0px;
+        gap: 0;
+    }
+    .nav-logo{
+        transform: scale(0.8);
+    }
 }
