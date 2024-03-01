@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useRef } from 'react'
 import './Navbar.css'
 
 import logo from '../Assets/logo.png'
@@ -24,7 +24,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
         <p>A'SHOPPING</p>
       </div>
-      <img onClick={dropdown_toggle} src={nav_dropdown} alt='' />
+      <img className='nav-dropdown' onClick={dropdown_toggle} src={nav_dropdown} alt='' />
       <ul ref={menuRef} className="nav-menu">
         <li onClick={()=>{setMenu("shop")}}><Link style={{ textDecoration: 'none' }} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("mens")}}><Link style={{ textDecoration: 'none' }} to='/mens'>Men</Link>{menu==="mens"?<hr/>:<></>}</li>
