@@ -140,7 +140,7 @@
     .nav-menu{
         display: none;
         height: 80px;
-        width: 100%;
+        width: auto;
         position: absolute;
         background-color: white;
         justify-content: center;
