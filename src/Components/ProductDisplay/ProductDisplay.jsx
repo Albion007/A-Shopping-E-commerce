@@ -39,7 +39,7 @@ const ProductDisplay = (props) => {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
         </div>
-        <div className="productdisplay-right-sizes">
+        <div className="productdisplay-right-size">
           <h1>Select Size</h1>
           <div className="productdisplay-right-sizes">
             <div>S</div>
